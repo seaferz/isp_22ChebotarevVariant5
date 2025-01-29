@@ -3,9 +3,15 @@ using System.Numerics;
 
 namespace NumberLibrary
 {
+
     public static class NumberAnalyzer
     {
-        //равна ли сумма двух первых его цифр сумме двух его последних цифр
+        /// <summary>
+        /// равна ли сумма двух первых его цифр сумме двух его последних цифр
+        /// </summary>
+        /// <param name="a">First value</param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
         public static bool SumOfFirstTwoDigits(int a)
         {
             if (a < 1000 || a > 9999)
@@ -21,7 +27,12 @@ namespace NumberLibrary
            return firstNumber + secondNumber == thirdNumber + fourthNumber;
         }
 
-        //кратна ли трём сумма его цифр;
+        /// <summary>
+        /// //равна ли сумма двух первых его цифр сумме двух его последних цифр
+        /// </summary>
+        /// <param name="a">First value</param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
         public static bool IsSumDivisibleByThree(int a)
         {
             if (a < 1000 || a > 9999)
@@ -38,7 +49,13 @@ namespace NumberLibrary
             return sum % 3 == 0;
         }
 
-        //кратно ли произведение его цифр введенному числу A 
+        /// <summary>
+        /// кратно ли произведение его цифр введенному числу A 
+        /// </summary>
+        /// <param name="a">First value</param>
+        /// <param name="b">Second value</param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
         public static bool IsProductDivisibleByA(int a, int b)
         {
             if (a < 1000 || a > 9999)
