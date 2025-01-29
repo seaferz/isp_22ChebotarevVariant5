@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr12", "pr12\pr12.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr11", "pr11\pr11.csproj", "{199733FB-16DF-4C6D-86CC-EB2D4ABFC4AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt14", "prakt14\prakt14.csproj", "{4421F018-BE62-41AC-BA53-B8D2DF1D6121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prakt14", "prakt14\prakt14.csproj", "{4421F018-BE62-41AC-BA53-B8D2DF1D6121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr15", "pr15\pr15.csproj", "{4DEFB3FD-6F4F-4DB1-BF97-64A38B1808D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr15", "pr15\pr15.csproj", "{4DEFB3FD-6F4F-4DB1-BF97-64A38B1808D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{CB98D03B-D490-42AD-A655-1A19BCB84E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLibrary", "ClassLibrary1\NumberLibrary.csproj", "{CB98D03B-D490-42AD-A655-1A19BCB84E1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
