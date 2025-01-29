@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr15", "pr15\pr15.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLibrary", "ClassLibrary1\NumberLibrary.csproj", "{CB98D03B-D490-42AD-A655-1A19BCB84E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prkt 14.1", "prkt 14.1\prkt 14.1.csproj", "{D497D6C9-12C0-46E3-9F0E-E01637E4B919}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prkt14.1", "prkt 14.1\prkt14.1.csproj", "{D497D6C9-12C0-46E3-9F0E-E01637E4B919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
