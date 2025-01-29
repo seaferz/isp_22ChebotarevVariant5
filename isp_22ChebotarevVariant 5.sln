@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr12", "pr12\pr12.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr11", "pr11\pr11.csproj", "{199733FB-16DF-4C6D-86CC-EB2D4ABFC4AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pr15", "pr15\pr15.csproj", "{4DEFB3FD-6F4F-4DB1-BF97-64A38B1808D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prk15", "pr15\prk15.csproj", "{4DEFB3FD-6F4F-4DB1-BF97-64A38B1808D2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLibrary", "ClassLibrary1\NumberLibrary.csproj", "{CB98D03B-D490-42AD-A655-1A19BCB84E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prkt14.1", "prkt 14.1\prkt14.1.csproj", "{D497D6C9-12C0-46E3-9F0E-E01637E4B919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prkt14.1", "prkt 14.1\prkt14.1.csproj", "{D497D6C9-12C0-46E3-9F0E-E01637E4B919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
