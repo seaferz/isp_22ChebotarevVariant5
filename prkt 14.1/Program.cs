@@ -34,13 +34,13 @@ var trys = 0;
 
 while (trys < 2)
 {
-    Console.WriteLine("Введи a: ");
+    Console.Write("Введи a: ");
     var A = double.Parse(Console.ReadLine());
 
-    Console.WriteLine("Введи b: ");
+    Console.Write("Введи b: ");
     var B = double.Parse(Console.ReadLine());
 
-    Console.WriteLine("Введи c: ");
+    Console.Write("Введи c: ");
     var C = double.Parse(Console.ReadLine());
 
     SortInc3(ref A, ref B, ref C);

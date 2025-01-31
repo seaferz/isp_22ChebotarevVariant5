@@ -7,7 +7,7 @@ namespace NumberLibrary
     public static class NumberAnalyzer
     {
         /// <summary>
-        /// равна ли сумма двух первых его цифр сумме двух его последних цифр
+        /// равна ли сумма двух первых цифр числа, сумме двух его последних цифр
         /// </summary>
         /// <param name="a">First value</param>
         /// <returns></returns>
@@ -28,7 +28,7 @@ namespace NumberLibrary
         }
 
         /// <summary>
-        /// //равна ли сумма двух первых его цифр сумме двух его последних цифр
+        /// //равна ли сумма двух первых его цифр чсла сумме двух его последних цифр
         /// </summary>
         /// <param name="a">First value</param>
         /// <returns></returns>
@@ -50,7 +50,7 @@ namespace NumberLibrary
         }
 
         /// <summary>
-        /// кратно ли произведение его цифр введенному числу A 
+        /// проверка: кратно ли произведение цифр введенному числу A 
         /// </summary>
         /// <param name="a">First value</param>
         /// <param name="b">Second value</param>

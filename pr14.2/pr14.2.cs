@@ -17,10 +17,10 @@ double TriangleP(double a, double h)
 int trys = 0;
 while (trys < 3)
 {
-    Console.WriteLine("Введите основание треугольника: ");
+    Console.Write("Введите основание треугольника: ");
     double baseOfTheTriangle = double.Parse(Console.ReadLine());
 
-    Console.WriteLine("Введите высоту треугольника: ");
+    Console.Write("Введите высоту треугольника: ");
     double heightOfTheTriangle = double.Parse(Console.ReadLine());
 
     double perimeter = TriangleP(baseOfTheTriangle, heightOfTheTriangle);
