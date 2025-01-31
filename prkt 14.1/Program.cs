@@ -55,5 +55,6 @@ while (trys < 2)
     {
         Console.WriteLine($"A2: {A}, B2: {B}, C2: {C}");
     }
+
     trys++;
 }
