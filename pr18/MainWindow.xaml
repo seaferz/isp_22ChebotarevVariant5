@@ -1,0 +1,156 @@
+﻿<Window x:Class="pr18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr18"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal"
+                    
+                    Grid.Row="0" 
+                    Grid.ColumnSpan="2"
+                    Margin="10">
+            <CheckBox x:Name="chkAutoPanel"
+                      Content="Авто режим"
+                      FontSize="15"
+                      IsChecked="True"
+                      Checked="PanelToggle"
+                      Unchecked="PanelToggle"/>
+            
+            <CheckBox x:Name="chkManualPanel"
+                      Content="Ручной режим"
+                      FontSize="15"
+                      Margin="20 0"
+                      Checked="PanelToggle"
+                      Unchecked="PanelToggle"/>
+        </StackPanel>
+
+        <!--автоматический режим-->
+        <GroupBox Header="Автоматический режим"
+                  FontSize="15"
+                  x:Name="autoGroups"
+                  Grid.Row="1"
+                  Grid.Column="0"
+                  Margin="10">
+            
+            <StackPanel>
+                <TextBlock Text="Выберите время года" FontSize="15"/>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton 
+                        Content="Зима" 
+                        GroupName="AutoSeason" 
+                        FontSize="15" 
+                        Checked="AutoSeason_Checked"/>
+                    
+                    <RadioButton 
+                        Content="Весна" 
+                        GroupName="AutoSeason" 
+                        FontSize="15" 
+                        Checked="AutoSeason_Checked"/>
+                    
+                    <RadioButton 
+                        Content="Лето" 
+                        GroupName="AutoSeason" 
+                        FontSize="15" 
+                        
+                        Checked="AutoSeason_Checked"/>
+                    <RadioButton 
+                        Content="Осень" 
+                        GroupName="AutoSeason"
+                        FontSize="15"
+                        Checked="AutoSeason_Checked"/>
+                    
+                </StackPanel>
+                <TextBox x:Name="txtAutoResult" 
+                         IsReadOnly="True" 
+                         FontSize="15" 
+                         Margin="0 43"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- ручной режим -->
+        <GroupBox Header="Ручной режим"
+                  FontSize="15"
+                  x:Name="ManualGroup"
+                  Grid.Row="1"
+                  Grid.Column="1"
+                  Margin="10"
+                  IsEnabled="False">
+            <StackPanel>
+                <TextBlock Text="Выберите время года" FontSize="15"/>
+                <StackPanel Orientation="Horizontal"
+                            x:Name="manualSeasonPanel">
+                    
+                    <RadioButton 
+                        Content="Зима" 
+                        GroupName="ManualSeason" 
+                        FontSize="15"/>
+                    
+                    <RadioButton 
+                        Content="Весна" 
+                        GroupName="ManualSeason"
+                        FontSize="15" />
+                    
+                    <RadioButton 
+                        Content="Лето"
+                        GroupName="ManualSeason" 
+                        FontSize="15" />
+
+                    <RadioButton
+                        Content="Осень" 
+                        GroupName="ManualSeason" 
+                        FontSize="15"
+                        />
+                </StackPanel>
+                
+                <Button 
+                    Content="Рассчитать"
+                    FontSize="15" 
+                    Width="100" 
+                    Margin="0,10,0,0"
+                    Click="ManualCalculate"
+                    Background="DarkOrange"
+                    />
+                
+                <TextBox x:Name="txtManualResult"
+                         IsReadOnly="True"
+                         FontSize="15"
+                         Margin="0 10"/>
+            </StackPanel>
+            
+        </GroupBox>
+        <!-- кнопка "О программе" -->
+        <Button Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Content="О программе"
+                FontSize="15"
+                Margin="10"
+                Click="ShowAbout"
+                Background="Aquamarine"/>
+
+        <!-- кнопка "Выход" -->
+        <Button Grid.Row="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Content="Выход"
+                FontSize="15"
+                Margin="10"
+                Click="ExitApplication"
+                Background="Aquamarine"/>
+    </Grid>
+</Window>
